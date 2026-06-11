@@ -1,0 +1,566 @@
+{
+  "database_name": "MTE Music Complete Practice Reference Database",
+  "database_version": "1.0",
+  "intended_platform": "GitHub repository with optional GitHub Pages static site",
+  "github": {
+    "repository_url_format": "https://github.com/<username>/<repository-name>",
+    "pages_url_format": "https://<username>.github.io/<repository-name>/",
+    "supported_content": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON",
+      "Images",
+      "Static assets"
+    ],
+    "notes": [
+      "GitHub Pages is a static site hosting service that publishes HTML, CSS, and JavaScript files from a repository.",
+      "Repository-based GitHub Pages sites on GitHub Free must use a public repository.",
+      "A completed database app can load this JSON directly in a static site if the JSON file is included in the repository."
+    ]
+  },
+  "site_structure": {
+    "recommended_root_files": [
+      "index.html",
+      "data/mte-complete-database.json",
+      "css/style.css",
+      "js/app.js",
+      "README.md",
+      ".nojekyll"
+    ],
+    "optional_folders": [
+      "assets/book-covers/",
+      "assets/portraits/",
+      "assets/icons/"
+    ]
+  },
+  "core_concepts": {
+    "big_three": [
+      "Air creates the sound.",
+      "Aperture controls the pitch.",
+      "Embouchure shapes the result."
+    ]
+  },
+  "fundamentals": [
+    {
+      "id": "breathing",
+      "order": 1,
+      "title": "Breathing",
+      "goal": "Better tone, endurance, dynamics, reduced tension, improved phrasing.",
+      "summary": "Proper breathing is the non-negotiable foundation of all brass playing. Arnold Jacobs summarized his philosophy as Song and Wind, with wind as the energy source that fuels vibration. Claude Gordon emphasized keeping the chest up during inhalation and exhalation and using a Big Breath as the first daily exercise.",
+      "practice_approach": "Begin every session with 5 to 10 minutes of breathing exercises away from the instrument before playing.",
+      "book_ids": [
+        "jacobs-song-and-wind",
+        "farkas-art-of-brass-playing",
+        "claude-gordon-daily-trumpet-routines",
+        "brass-techniques-and-pedagogy"
+      ]
+    },
+    {
+      "id": "long-tones",
+      "order": 2,
+      "title": "Long Tones",
+      "goal": "Build tone quality, pitch center, breath control, consistency.",
+      "summary": "Long tones are widely used to build consistency, resonance, and control. Vincent Cichowicz emphasized evenness of tone across all registers and a connected sound from note to note.",
+      "practice_approach": "Stay relaxed, use steady airflow, begin softly, and listen for an even, connected tone.",
+      "book_ids": [
+        "cichowicz-long-tone-studies",
+        "cichowicz-fundamental-studies",
+        "schlossberg-daily-drills",
+        "arban-complete-conservatory"
+      ]
+    },
+    {
+      "id": "mouthpiece-buzzing",
+      "order": 3,
+      "title": "Mouthpiece Buzzing",
+      "goal": "Connect air, pitch, and embouchure; improve resonance and efficiency.",
+      "summary": "Mouthpiece buzzing helps connect air flow, pitch accuracy, and embouchure function. James Stamp formalized buzzing as part of a warm-up approach and emphasized pitch slotting rather than sliding.",
+      "practice_approach": "Buzz in moderation, match pitches carefully, and strive for a centered, vocal quality.",
+      "book_ids": [
+        "stamp-warm-ups-studies",
+        "schlossberg-daily-drills",
+        "jacobs-song-and-wind"
+      ]
+    },
+    {
+      "id": "lip-bends-down",
+      "order": 4,
+      "title": "Lip Bends Down",
+      "goal": "Develop pitch control, flexibility, slotting, embouchure awareness.",
+      "summary": "Lip bends down help players find the center of each pitch and understand how far a note can be moved before it breaks to another partial.",
+      "practice_approach": "Bend a centered note down, return cleanly to center, and use the exercise to reset pitch awareness.",
+      "book_ids": [
+        "stamp-warm-ups-studies",
+        "schlossberg-daily-drills",
+        "colin-advanced-lip-flexibilities"
+      ]
+    },
+    {
+      "id": "lip-bends-up",
+      "order": 5,
+      "title": "Lip Bends Up",
+      "goal": "Improve pitch centering, upper-register coordination, listening skills.",
+      "summary": "Upward bends train embouchure and air coordination for accessing higher partials with control rather than pressure.",
+      "practice_approach": "Use controlled upward bending to develop listening and upper-register coordination.",
+      "book_ids": [
+        "colin-advanced-lip-flexibilities",
+        "reinhardt-upper-register",
+        "schlossberg-daily-drills"
+      ]
+    },
+    {
+      "id": "lip-slurs",
+      "order": 6,
+      "title": "Lip Slurs",
+      "goal": "Build flexibility, range, efficiency, and smooth register changes.",
+      "summary": "Lip slurs are central to brass playing and appear in nearly every major method. Earl Irons emphasized breath support and tongue arch as key drivers of efficient slurring.",
+      "practice_approach": "Accelerate the air through the line and connect the notes with as little disruption as possible.",
+      "book_ids": [
+        "irons-27-groups",
+        "colin-advanced-lip-flexibilities",
+        "stamp-warm-ups-studies",
+        "arban-complete-conservatory",
+        "bai-lin-lip-flexibilities"
+      ]
+    },
+    {
+      "id": "scales",
+      "order": 7,
+      "title": "Scales",
+      "goal": "Finger coordination, key knowledge, sight-reading, improvisation.",
+      "summary": "Scale work develops technique, key fluency, and note connection. Clarke Study 2 is one of the most practiced scale-based studies in trumpet playing.",
+      "practice_approach": "Practice slowly, in all keys, with consistent tone and steady airflow.",
+      "book_ids": [
+        "clarke-technical-studies",
+        "arban-complete-conservatory",
+        "rubank-advanced-method",
+        "juilliard-scales-and-arpeggios"
+      ]
+    },
+    {
+      "id": "arpeggios",
+      "order": 8,
+      "title": "Arpeggios",
+      "goal": "Chord recognition, interval awareness, harmonic understanding.",
+      "summary": "Arpeggios develop chord-tone fluency and harmonic awareness for improvisation, orchestral playing, and sight-reading.",
+      "practice_approach": "Practice major, minor, and dominant forms evenly and connect them to harmonic function.",
+      "book_ids": [
+        "arban-complete-conservatory",
+        "rubank-advanced-method",
+        "schlossberg-daily-drills",
+        "juilliard-scales-and-arpeggios"
+      ]
+    },
+    {
+      "id": "articulation",
+      "order": 9,
+      "title": "Articulation",
+      "goal": "Single, double, and triple tonguing for clarity and speed.",
+      "summary": "Articulation should remain air-driven, with the tongue interrupting rather than stopping the air. Arban and later pedagogues emphasize progressive tonguing patterns and coordination.",
+      "practice_approach": "Start on one pitch, slur first, then progressively add tonguing patterns and finger motion.",
+      "book_ids": [
+        "arban-complete-conservatory",
+        "salvo-double-triple-tonguing",
+        "clarke-technical-studies",
+        "schlossberg-daily-drills",
+        "irons-27-groups"
+      ]
+    },
+    {
+      "id": "rhythm",
+      "order": 10,
+      "title": "Rhythm",
+      "goal": "Metronome, subdivision, and rhythm studies for timing accuracy.",
+      "summary": "Rhythm training develops internal pulse independent of pitch technique and is supported by systematic reading and subdivision work.",
+      "practice_approach": "Use the metronome on wider intervals and train internal time rather than click dependence.",
+      "book_ids": [
+        "ted-reed-syncopation",
+        "robert-starer-rhythmic-training",
+        "farkas-art-of-musicianship",
+        "arban-complete-conservatory"
+      ]
+    },
+    {
+      "id": "ear-training",
+      "order": 11,
+      "title": "Ear Training",
+      "goal": "Pitch recognition, intonation, and musical memory.",
+      "summary": "Ear training connects conception to execution. Singing, buzzing, and audiation help players hear before they play.",
+      "practice_approach": "Sing or hum every line before playing and practice pitch matching away from the instrument.",
+      "book_ids": [
+        "prosser-essential-ear-training",
+        "stamp-warm-ups-studies",
+        "bordogni-rochut-melodious-etudes"
+      ]
+    },
+    {
+      "id": "dynamics-phrasing",
+      "order": 12,
+      "title": "Dynamics and Phrasing",
+      "goal": "Expression, contrast, breath placement, musical direction.",
+      "summary": "Phrasing and dynamics turn technique into music. Vocalise-based etudes and phrase-grouping systems help develop shaping and forward motion.",
+      "practice_approach": "Treat every phrase vocally, shape dynamics with direction, and group notes toward musical goals.",
+      "book_ids": [
+        "bordogni-rochut-melodious-etudes",
+        "farkas-art-of-musicianship",
+        "mcgill-sound-in-motion",
+        "thurmond-note-grouping",
+        "charlier-36-etudes",
+        "arban-complete-conservatory"
+      ]
+    },
+    {
+      "id": "sight-reading",
+      "order": 13,
+      "title": "Sight Reading",
+      "goal": "Faster learning, confidence, and reading fluency.",
+      "summary": "Daily reading of unfamiliar material improves recognition, timing, and fluency. Successful sight-reading depends on staying in time and looking ahead.",
+      "practice_approach": "Read every day without stopping, keep your eyes ahead, and maintain pulse at all costs.",
+      "book_ids": [
+        "getchell-practical-studies",
+        "allan-colin-sight-reading",
+        "complete-sight-reading-etude-collection",
+        "rubank-selected-studies"
+      ]
+    },
+    {
+      "id": "etudes-repertoire",
+      "order": 14,
+      "title": "Etudes and Repertoire",
+      "goal": "Apply technique and musicianship in real music.",
+      "summary": "Etudes and repertoire are where technical studies become artistic playing. Advanced etudes blend flexibility, articulation, style, and interpretation.",
+      "practice_approach": "Use etudes to combine technical and musical goals in complete, performable works.",
+      "book_ids": [
+        "charlier-36-etudes",
+        "bordogni-rochut-melodious-etudes",
+        "arban-characteristic-studies-fantasies",
+        "concone-lyrical-etudes",
+        "hering-etudes"
+      ]
+    },
+    {
+      "id": "mock-auditions-recording",
+      "order": 15,
+      "title": "Mock Auditions and Recording",
+      "goal": "Build confidence, consistency, and self-evaluation.",
+      "summary": "Recording reveals problems that are hard to notice while playing. Mock auditions help players build consistency and mental control under pressure.",
+      "practice_approach": "Play complete runs without stopping, record often, and review critically for one major improvement target.",
+      "book_ids": [
+        "charlier-36-etudes",
+        "rubank-advanced-method",
+        "clarke-characteristic-studies"
+      ]
+    },
+    {
+      "id": "posture-endurance",
+      "order": 16,
+      "title": "Posture and Endurance",
+      "goal": "Improve efficiency, stamina, and performance quality.",
+      "summary": "Endurance is built by efficient practice, appropriate breathing, and a balanced body position. Overblowing and unnecessary tension reduce stamina.",
+      "practice_approach": "Use efficient air, forward corners, balanced posture, and built-in rest during practice sessions.",
+      "book_ids": [
+        "farkas-art-of-brass-playing",
+        "jacobs-song-and-wind",
+        "claude-gordon-daily-trumpet-routines",
+        "stamp-warm-ups-studies"
+      ]
+    }
+  ],
+  "lesson_books": [
+    {
+      "id": "jacobs-song-and-wind",
+      "title": "Arnold Jacobs: Song and Wind",
+      "author": "Brian Frederiksen",
+      "publisher": "Windsong Press",
+      "priority": "supplemental",
+      "coverage": ["breathing", "mouthpiece buzzing", "ear training", "posture and endurance"]
+    },
+    {
+      "id": "farkas-art-of-brass-playing",
+      "title": "The Art of Brass Playing",
+      "author": "Philip Farkas",
+      "publisher": "Brass Publications",
+      "priority": "highly recommended",
+      "coverage": ["breathing", "posture and endurance"]
+    },
+    {
+      "id": "claude-gordon-daily-trumpet-routines",
+      "title": "Daily Trumpet Routines",
+      "author": "Claude Gordon",
+      "publisher": "Claude Gordon Publications",
+      "priority": "supplemental",
+      "coverage": ["breathing", "posture and endurance"]
+    },
+    {
+      "id": "brass-techniques-and-pedagogy",
+      "title": "Brass Techniques and Pedagogy",
+      "author": "PALNI Press",
+      "publisher": "PALNI Press",
+      "priority": "supplemental",
+      "coverage": ["breathing", "posture and endurance"]
+    },
+    {
+      "id": "cichowicz-long-tone-studies",
+      "title": "Long Tone Studies",
+      "author": "Vincent Cichowicz",
+      "publisher": "Studio 259 Productions",
+      "priority": "must-have",
+      "coverage": ["long tones"]
+    },
+    {
+      "id": "cichowicz-fundamental-studies",
+      "title": "Fundamental Studies for the Developing Trumpet Player",
+      "author": "Vincent Cichowicz",
+      "publisher": "Hal Leonard",
+      "priority": "must-have",
+      "coverage": ["long tones"]
+    },
+    {
+      "id": "schlossberg-daily-drills",
+      "title": "Daily Drills and Technical Studies",
+      "author": "Max Schlossberg",
+      "publisher": "M. Baron",
+      "priority": "must-have",
+      "coverage": ["long tones", "mouthpiece buzzing", "lip bends down", "lip bends up", "arpeggios", "articulation"]
+    },
+    {
+      "id": "arban-complete-conservatory",
+      "title": "Complete Conservatory Method",
+      "author": "J.B. Arban",
+      "publisher": "Carl Fischer / Dover",
+      "priority": "must-have",
+      "coverage": ["long tones", "lip slurs", "scales", "arpeggios", "articulation", "rhythm", "dynamics and phrasing"]
+    },
+    {
+      "id": "stamp-warm-ups-studies",
+      "title": "Warm Ups and Studies",
+      "author": "James Stamp",
+      "publisher": "Editions BIM",
+      "priority": "must-have",
+      "coverage": ["mouthpiece buzzing", "lip bends down", "lip slurs", "ear training", "posture and endurance"]
+    },
+    {
+      "id": "colin-advanced-lip-flexibilities",
+      "title": "Advanced Lip Flexibilities",
+      "author": "Charles Colin",
+      "publisher": "Charles Colin Music",
+      "priority": "highly recommended",
+      "coverage": ["lip bends down", "lip bends up", "lip slurs"]
+    },
+    {
+      "id": "reinhardt-upper-register",
+      "title": "Exploring the Trumpet's Upper Register",
+      "author": "Donald Reinhardt",
+      "publisher": "Reinhardt Publications",
+      "priority": "supplemental",
+      "coverage": ["lip bends up"]
+    },
+    {
+      "id": "irons-27-groups",
+      "title": "27 Groups of Exercises",
+      "author": "Earl Irons",
+      "publisher": "Southern Music / Hal Leonard",
+      "priority": "highly recommended",
+      "coverage": ["lip slurs", "articulation"]
+    },
+    {
+      "id": "bai-lin-lip-flexibilities",
+      "title": "Bai Lin Lip Flexibilities",
+      "author": "Bai Lin",
+      "publisher": "Balquhidder / Carl Fischer",
+      "priority": "supplemental",
+      "coverage": ["lip slurs"]
+    },
+    {
+      "id": "clarke-technical-studies",
+      "title": "Technical Studies for Cornet/Trumpet",
+      "author": "Herbert L. Clarke",
+      "publisher": "Carl Fischer",
+      "priority": "must-have",
+      "coverage": ["scales", "articulation"]
+    },
+    {
+      "id": "rubank-advanced-method",
+      "title": "Rubank Advanced Method Vols. 1 and 2",
+      "author": "Gower and Voxman",
+      "publisher": "Hal Leonard",
+      "priority": "supplemental",
+      "coverage": ["scales", "arpeggios", "mock auditions and recording"]
+    },
+    {
+      "id": "juilliard-scales-and-arpeggios",
+      "title": "Scales and Arpeggios for Trumpet",
+      "author": "Various",
+      "publisher": "Juilliard Edition",
+      "priority": "supplemental",
+      "coverage": ["scales", "arpeggios"]
+    },
+    {
+      "id": "salvo-double-triple-tonguing",
+      "title": "240 Double and Triple Tonguing Exercises",
+      "author": "Victor Salvo",
+      "publisher": "Alfred Music",
+      "priority": "supplemental",
+      "coverage": ["articulation"]
+    },
+    {
+      "id": "ted-reed-syncopation",
+      "title": "Progressive Steps to Syncopation for the Modern Drummer",
+      "author": "Ted Reed",
+      "publisher": "Alfred Music",
+      "priority": "supplemental",
+      "coverage": ["rhythm"]
+    },
+    {
+      "id": "robert-starer-rhythmic-training",
+      "title": "Rhythmic Training",
+      "author": "Robert Starer",
+      "publisher": "Hal Leonard / MCA",
+      "priority": "supplemental",
+      "coverage": ["rhythm"]
+    },
+    {
+      "id": "farkas-art-of-musicianship",
+      "title": "The Art of Musicianship",
+      "author": "Philip Farkas",
+      "publisher": "Wind Music",
+      "priority": "supplemental",
+      "coverage": ["rhythm", "dynamics and phrasing"]
+    },
+    {
+      "id": "prosser-essential-ear-training",
+      "title": "Essential Ear Training for the Contemporary Musician",
+      "author": "Steve Prosser",
+      "publisher": "Berklee Press",
+      "priority": "supplemental",
+      "coverage": ["ear training"]
+    },
+    {
+      "id": "bordogni-rochut-melodious-etudes",
+      "title": "Melodious Etudes",
+      "author": "Marco Bordogni / Joannes Rochut",
+      "publisher": "Carl Fischer",
+      "priority": "highly recommended",
+      "coverage": ["ear training", "dynamics and phrasing", "etudes and repertoire"]
+    },
+    {
+      "id": "mcgill-sound-in-motion",
+      "title": "Sound in Motion",
+      "author": "David McGill",
+      "publisher": "Indiana University Press",
+      "priority": "supplemental",
+      "coverage": ["dynamics and phrasing"]
+    },
+    {
+      "id": "thurmond-note-grouping",
+      "title": "Note Grouping",
+      "author": "James Morgan Thurmond",
+      "publisher": "Meredith Music",
+      "priority": "supplemental",
+      "coverage": ["dynamics and phrasing"]
+    },
+    {
+      "id": "charlier-36-etudes",
+      "title": "36 Études Transcendantes",
+      "author": "Théo Charlier",
+      "publisher": "Alphonse Leduc / Carl Fischer",
+      "priority": "highly recommended",
+      "coverage": ["dynamics and phrasing", "etudes and repertoire", "mock auditions and recording"]
+    },
+    {
+      "id": "getchell-practical-studies",
+      "title": "First and Second Book of Practical Studies",
+      "author": "Robert Getchell",
+      "publisher": "Alfred Music",
+      "priority": "supplemental",
+      "coverage": ["sight reading"]
+    },
+    {
+      "id": "allan-colin-sight-reading",
+      "title": "Mid Range Trumpet Etudes for Sight Reading",
+      "author": "Allan Colin",
+      "publisher": "Charles Colin Music",
+      "priority": "supplemental",
+      "coverage": ["sight reading"]
+    },
+    {
+      "id": "complete-sight-reading-etude-collection",
+      "title": "The Complete Sight Reading Etude Collection",
+      "author": "Various",
+      "publisher": "Balquhidder Music / J.W. Pepper",
+      "priority": "supplemental",
+      "coverage": ["sight reading"]
+    },
+    {
+      "id": "rubank-selected-studies",
+      "title": "Rubank Selected Studies",
+      "author": "H. Voxman",
+      "publisher": "Hal Leonard",
+      "priority": "supplemental",
+      "coverage": ["sight reading"]
+    },
+    {
+      "id": "arban-characteristic-studies-fantasies",
+      "title": "14 Characteristic Studies and 12 Celebrated Fantasies",
+      "author": "J.B. Arban",
+      "publisher": "Carl Fischer / Dover",
+      "priority": "highly recommended",
+      "coverage": ["etudes and repertoire"]
+    },
+    {
+      "id": "concone-lyrical-etudes",
+      "title": "Concone Lyrical Etudes",
+      "author": "Giuseppe Concone",
+      "publisher": "Various",
+      "priority": "supplemental",
+      "coverage": ["etudes and repertoire"]
+    },
+    {
+      "id": "hering-etudes",
+      "title": "36 Etudes / 40 Progressive Etudes",
+      "author": "Sigmund Hering",
+      "publisher": "Carl Fischer",
+      "priority": "supplemental",
+      "coverage": ["etudes and repertoire"]
+    },
+    {
+      "id": "clarke-characteristic-studies",
+      "title": "Characteristic Studies",
+      "author": "Herbert L. Clarke",
+      "publisher": "Carl Fischer",
+      "priority": "supplemental",
+      "coverage": ["mock auditions and recording"]
+    }
+  ],
+  "essential_library_summary": [
+    {
+      "priority": "must-have",
+      "books": [
+        "arban-complete-conservatory",
+        "clarke-technical-studies",
+        "schlossberg-daily-drills",
+        "stamp-warm-ups-studies",
+        "cichowicz-long-tone-studies"
+      ]
+    },
+    {
+      "priority": "highly recommended",
+      "books": [
+        "colin-advanced-lip-flexibilities",
+        "irons-27-groups",
+        "charlier-36-etudes",
+        "bordogni-rochut-melodious-etudes",
+        "farkas-art-of-brass-playing"
+      ]
+    },
+    {
+      "priority": "supplemental",
+      "books": [
+        "jacobs-song-and-wind",
+        "rubank-advanced-method",
+        "prosser-essential-ear-training"
+      ]
+    }
+  ]
+}
